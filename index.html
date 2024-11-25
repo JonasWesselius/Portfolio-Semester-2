@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A basic HTML structure">
+    <title>Basic HTML Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="colours.css">
+    <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/banner/banner.css">
+    <link rel="stylesheet" href="components/grid/grid.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logo white.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#" data-section="learning-outcomes" id="verzekering-link">Learning Outcomes</a></li>
+                    <li><a href="#projects" data-section="projects">Projects</a></li>
+                    <li><a href="#about" data-section="about">About me</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="#language" class="btn btn-primary">Contact</a>
+            </div>
+        </div>
+    </header>
+    <header class="secondary-header" id="secondary-header">
+        <div class="container">
+            <nav class="secondary-navigation">
+                <ul id="secondary-content">
+                    <!-- Dynamische inhoud -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="banner-content">
+                <img src="../../images/face.png" alt="My Face" class="face-image">
+                <div class="text">
+                    <h1 class="top-left">Hey,</h1>
+                    <h1 class="top-right">There</h1>
+                    <div class="bottom-left">
+                        <h2>I am</h2>
+                        <h2>Jonas</h2>
+                    </div>
+                    <div class="middle-right">
+                        <p>Specializing in Web Design<br>and Front End Development</p>
+                    </div>
+                    <div class="bottom-right">
+                        <h3>Media</h3>
+                        <h3>Design</h3>
+                        <h3>Student</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <h2>Our Results</h2>
+        <div class='image-grid'>
+          <div class='row'>
+            <div class='column'>
+              <img src="images/grid/blik.png" alt="Image 1">
+              <div class="title">Theatre Blik</div>
+            </div>
+            <div class='column'>
+              <img src="images/grid/studio.png" alt="Image 2">
+              <div class="title">Studio Branding</div>
+            </div>
+          </div>
+          <div class='row'>
+              <div class='column'>
+                <img src="images/grid/fairytales.png" alt="Image 1">
+                <div class="title">AI Fairytales</div>
+              </div>
+              <div class='column'>
+                <img src="images/grid/UX.png" alt="Image 2">
+                <div class="title">Fix That UX</div>
+              </div>
+            </div>
+            <div class='row'>
+                <div class='column'>
+                  <img src="images/grid/development.png" alt="Image 1">
+                  <div class="title">Development Project</div>
+                </div>
+                <div class='column'>
+                  <img src="images/grid/sprint.png" alt="Image 2">
+                  <div class="title">Sprint X</div>
+                </div>
+              </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+    
+    <script src="components/header/header.js"></script>
+</body>
+</html>

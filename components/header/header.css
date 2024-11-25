@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-header, .secondary-header {
+    background-color: var(--dark-purple);
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navigation ul li {
+    margin-left: 20px;
+}
+.secondary-navigation ul li {
+    margin-left: 20px;
+}
+.navigation ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    color: var(--white);
+}
+.secondary-navigation ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    color: var(--black);
+}
+.navigation ul li a:hover {
+    color: var(--orange);
+}
+.secondary-navigation ul li a:hover {
+    color: var(--orange);
+}
+.navigation ul li a.active,
+.secondary-navigation ul li a.active {
+    color: var(--orange);
+    font-weight: bold;
+    border-bottom: 2px solid var(--orange);
+}
+
+.header-buttons .btn, .search-bar button {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: var(--white);
+    background-color: var(--purple);
+    transition: background-color 0.3s;
+}
+
+.secondary-header {
+    display: none;
+    border-bottom: 2px solid var(--black);
+    background-color: var(--white);
+    color: var(--black);
+    padding: 20px 0;
+}
+
+.secondary-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.home-icon {
+    margin-right: 20px;
+}
+
+.navigation {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+}
+.secondary-navigation {
+    flex: 1; 
+    display: flex;
+    justify-content: center;
+    color: var(--black);
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+.secondary-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; 
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Add spacing between buttons */
+}
+
+.secondary-header {
+    display: none;
+}

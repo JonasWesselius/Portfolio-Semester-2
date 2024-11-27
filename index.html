@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="colours.css">
     <link rel="stylesheet" href="components/header/header.css">
+    <link rel="stylesheet" href="components/footer/footer.css">
     <link rel="stylesheet" href="components/banner/banner.css">
     <link rel="stylesheet" href="components/grid/grid.css">
 </head>
@@ -21,13 +22,13 @@
             </div>
             <nav class="navigation">
                 <ul>
-                    <li><a href="#" data-section="learning-outcomes" id="verzekering-link">Learning Outcomes</a></li>
+                    <li><a href="#lo" data-section="learning-outcomes" id="learning-outcomes">Learning Outcomes</a></li>
                     <li><a href="#projects" data-section="projects">Projects</a></li>
                     <li><a href="#about" data-section="about">About me</a></li>
                 </ul>
             </nav>
             <div class="header-buttons">
-                <a href="#language" class="btn btn-primary">Contact</a>
+                <a href="#contact" class="btn btn-primary">Contact</a>
             </div>
         </div>
     </header>
@@ -40,7 +41,6 @@
             </nav>
         </div>
     </header>
-
     <main>
         <section class="banner">
             <div class="banner-content">
@@ -65,7 +65,7 @@
         </section>
         
         
-        <h2>Our Results</h2>
+        <h2>My Projects</h2>
         <div class='image-grid'>
           <div class='row'>
             <div class='column'>
@@ -100,8 +100,36 @@
         </div>
     </main>
 
-    <footer>
-    </footer>
+    <section id="contact" class="footer">
+        <div class="logoFooter">
+            <img src="images/logo white.png" alt="Logo">
+        </div>
+        <div class="quick-links">
+            <a href="#" class="heading">Navigation</a> 
+            <a href="lo.html">Learning Outcomes</a>
+            <a href="about.html">Projects</a>
+            <a href="about.html">About me</a> 
+            <a href="/pdfs/CV van Jonas Wesselius 2021.pdf">CV</a> 
+        </div>
+        <div class="social-icons">
+            <div class="icon">
+                <a href="mailto:jonassuswesselius@gmail.com" target="_blank" rel="noopener">
+                    <img src="images/icons/email-icon.png" alt="Email">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/JonasWesselius" target="_blank" rel="noopener">
+                    <img src="images/icons/github-icon.png" alt="Github">
+                </a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/jonas-wesselius-42755829b/" target="_blank" rel="noopener">
+                    <img src="images/icons/linkedin-icon.png" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="icon"><img src="images/icons/discord-icon.png" alt="Discord"></div>
+        </div>
+    </section>
     
     <script src="components/header/header.js"></script>
 </body>

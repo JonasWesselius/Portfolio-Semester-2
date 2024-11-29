@@ -34,6 +34,14 @@ body {
     color: #5A2C83;
 }
 
+ul{
+    font-size: 16px;
+    color: var(--white);
+    margin-bottom: 15px;
+    margin-left: 5rem;
+    margin-right: 3rem;
+    line-height: 1.6;  
+}
 .toc-links {
     list-style-type: none;
     padding: 0;

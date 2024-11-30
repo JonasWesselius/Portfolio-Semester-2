@@ -64,7 +64,7 @@ body {
 }
 
 .secondary-header {
-    top: 75px;
+    top: 73px;
     display: none;
     border-bottom: 2px solid var(--black);
     background-color: var(--white);

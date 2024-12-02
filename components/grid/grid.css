@@ -19,13 +19,13 @@
     flex: 1;
     margin-bottom: 2rem;
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Center content vertically */
-    transition: transform 0.3s ease; /* Add transition */
+    justify-content: center; 
+    align-items: center; 
+    transition: transform 0.3s ease;
   }
   
   .column:hover {
-    transform: scale(1.05); /* Scale up by 5% on hover */
+    transform: scale(1.05); 
   }
   
   .column::before {

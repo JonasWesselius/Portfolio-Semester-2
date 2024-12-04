@@ -78,8 +78,11 @@
     padding: 10px;
     border-radius: 50%;
     user-select: none;
+    transition: 0.3s;
 }
-
+.carousel-control:hover{
+    color: var(--orange);
+}
 .carousel-control.prev {
     left: 10px;
 }

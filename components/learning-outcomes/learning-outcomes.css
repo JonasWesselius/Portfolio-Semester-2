@@ -101,7 +101,7 @@ ul{
     line-height: 1.6; 
 }
 
-.further-btn {
+/* .further-btn {
     font-weight: 550;
     color: var(--white);
     padding: 12px 35px; 
@@ -111,10 +111,24 @@ ul{
     text-decoration: none;
     background: linear-gradient(to top right, var(--purple), var(--dark-purple));
     border: none;
+} */
+.further-btn {
+    font-weight: 550;
+    color: var(--dark-purple);
+    padding: 12px 35px; 
+    border: 2px solid var(--dark-purple);
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto; 
+    text-decoration: none;
+    background-color: var(--white);
+    transition: 0.3s;
 }
 
 .further-btn:hover {
-    background: linear-gradient(to top right, var(--purple), var(--dark-purple));;
+    background: linear-gradient(to top right, var(--purple), var(--dark-purple));
+    color: var(--orange);
+    border: 2px solid var(--purple);
     box-shadow: 0 0 5px #8C33D1,
                 0 0 25px #8C33D1,
                 0 0 50px #8C33D1,
